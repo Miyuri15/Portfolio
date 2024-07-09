@@ -11,11 +11,12 @@
    <div id="header">
     <div class="container">
         <nav>
-            <img src = "img/logo.png" class="logo">
+            <img src = "img/logom.png" class="logo">
             <ul id="sidemenu">
                 <li> <a href = "#header"> Home</a></li>
                 <li> <a href = "#about"> About</a></li>
                 <li> <a href = "#services"> Services</a></li>
+                <li><a href="#technics"> Skills</a></li>
                 <li> <a href = "#portfolio"> Portfolio</a></li>
                 <li> <a href = "#contact"> Contact</a></li>
                 <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
@@ -23,9 +24,17 @@
             <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="header-text">
-            <p> Fullstack Developer</p>
-            <h1> Hi, I'm <span> Miyuri </span><br> from Sri Lanka</h1>
+            <div class="row">
+            <div class="col1 social-icons">
+                <a href="https://github.com/Miyuri15"><i class="fa-brands fa-square-github"></i></a>
+                <a href="https://www.linkedin.com/in/miyuri-madubhashi-590935201?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="col2">
+                <p> Fullstack Developer</p>
+                <h1> Hi, I'm <span> Miyuri </span><br> from Sri Lanka</h1>
+                </div>
         </div>
+    </div>
     </div>
    </div>
   <!-- ------ about-------- -->
@@ -34,11 +43,16 @@
     <div class="container">
         <div class="row">
             <div class="about-col-1">
-                <img src="img/cloak.png" alt="">
+                <img src="img/mgreen.png" alt="">
             </div>
             <div class="about-col-2">
                 <h1 class="sub-title"> About Me</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis officia eius obcaecati vel, maiores dolores, rem eum fugit mollitia odio voluptatibus, nostrum quam cum veritatis nam incidunt itaque et odit!</p>
+                <p>I am a dedicated Software Engineering undergraduate at SLIIT with strong coding skills
+                    and a commitment to integrity, innovation, and continuous learning. My core
+                    values include honesty, teamwork, and resilience, which guide my approach to
+                    problem-solving and collaboration. I strive to bring a high level of dedication
+                    and ethical standards to every project, aiming to contribute effectively and
+                    grow both personally and professionally in the tech industry</p>
             
                 <div class="tab-titles">
                 <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
@@ -54,8 +68,8 @@
             </div>
             <div class="tab-contents" id="education">
                 <Ul>
-                 <li><span>2022-2026</span> <br> Bsc(Hons)Information Technology-Software Engineering</li>
-                 <li><span>2018</span> <br> Diploma in Information Technology</li>
+                 <li><span>2022-2026</span><br>SLIIT<br> Bsc(Hons)Information Technology-Software Engineering</li>
+                 <li><span>2018</span><br>Esoft Metro Campus <br> Diploma in Information Technology</li>
  
                 </Ul>
              </div>
@@ -72,28 +86,67 @@
             <div class="services-list">
                 <div>
                     <i class="fa-solid fa-code"></i>
-                    <h2>Web Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sint architecto hic libero eius natus adipisci vero doloribus, id sequi ratione quos, sapiente dolorum unde mollitia aliquid. Sint, et sapiente.</p>
-                    <a href="#">Learn more</a>
+                    <h2>Web Development</h2>
+                    <p>At the heart of digital transformation lies exceptional web development. Our team specializes in creating robust, high-performance websites tailored to your business needs. By leveraging the latest technologies and best practices, we ensure your website is not only visually stunning but also functional, user-friendly, and optimized for search engines. From responsive design to seamless navigation and fast load times, we build websites that provide an exceptional user experience and drive engagement. Let us help you establish a powerful online presence that sets you apart from the competition.</p>
                 </div>
 
                 <div>
                     <i class="fa-solid fa-crop"></i>
                     <h2>Ui/UX Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sint architecto hic libero eius natus adipisci vero doloribus, id sequi ratione quos, sapiente dolorum unde mollitia aliquid. Sint, et sapiente.</p>
-                    <a href="#">Learn more</a>
+                    <p>User Interface (UI) and User Experience (UX) design are crucial to creating engaging and intuitive digital products. Our UI/UX design services focus on understanding your users' needs and crafting designs that provide a seamless and enjoyable experience. By combining creativity with usability principles, we design interfaces that are both visually appealing and easy to navigate. Our goal is to enhance user satisfaction, foster loyalty, and drive conversions. Whether you need a complete redesign or are starting from scratch, we collaborate closely with you to ensure that the final product aligns perfectly with your vision and user expectations.</p>
                 </div>
 
                 <div>
                     <i class="fa-brands fa-app-store"></i>
-                    <h2>App Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sint architecto hic libero eius natus adipisci vero doloribus, id sequi ratione quos, sapiente dolorum unde mollitia aliquid. Sint, et sapiente.</p>
-                    <a href="#">Learn more</a>
+                    <h2>App Development</h2>
+                    <p>In today's mobile-first world, having a dynamic and reliable app is essential for reaching your audience and achieving business goals. Our app development services encompass the entire process from concept to deployment. We specialize in building high-quality mobile applications for iOS and Android platforms that are tailored to your unique requirements. Our team of experts uses cutting-edge tools and technologies to deliver apps that are fast, secure, and feature-rich. With a focus on user experience and performance, we ensure your app not only meets but exceeds user expectations. Partner with us to create an app that drives engagement, enhances productivity, and delivers real value to your users</p>
                 </div>
             </div>
         </div>
     </div>
+<!-- ------------Technical skills---------- -->
+ <div id="technics">
+    <div class="container">
+        <h1 class="sub-title"> Technical Skills</h1>  
+        <div class="tech-list">
+                <div class="techs">
+                    <img src="img/html-5.182x256.png" alt="">
+                </div>
+                <div class="techs">
+                    <img src="img/css-3.182x256.png" alt="">
+                </div>
+                <div class="techs">
+                    <img src="img/javascript.256x256.png" alt="">
+                </div>
+                <div class="techs">
+                    <img src="img/java-original.189x256.png" alt="">
+                </div>
+            <div class="techs">
+                <img src="img/react-original.256x229.png" alt="">
+            </div>
+            <div class="techs">
+                <img src="img/mongodb-original-wordmark.251x256.png" alt="">
+            </div>
+            <div class="techs">
+                <img src="img/mysql-original-wordmark.256x133.png" alt="">
+            </div>
+            <div class="techs">
+                <img src="img/php.256x256.png" alt="">
+            </div>
+            <div class="techs">
+                <img src="img/kotlin.256x256.png" alt="">
+            </div>
+            <div class="techs">
+                <img src="img/python.256x254.png" alt="">
+            </div>
+            <div class="techs">
+                <img src="img/apps-figma.256x256.png" alt="">
+            </div>
+            
 
+        </div>
+    </div>
+ </div>
     <!-- ------portfolio---------- -->
      <div id="portfolio">
         <div class="container">
